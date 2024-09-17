@@ -23,7 +23,7 @@
 ---
 
 ## GTK App Flow in a nutshell
--> Signal (user input, desktop env, linux -> handler for that signal -> ui change (thats it!)
+-> Signal (user input, desktop env, linux) -> handler for that signal -> ui change (thats it!)
 
 
 ## Source
