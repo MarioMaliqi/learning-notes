@@ -24,7 +24,13 @@
 
 ## GTK App Flow in a nutshell
 -> Signal (user input, desktop env, linux) -> handler for that signal -> ui change (thats it!)
+---
 
+## Hello World in GTK
+- this Programm builds on top of the first one and adds a "Hello World" `button` inside a centered `box` that quits the app.
+- Box is used to set the Placement of a widget/multiple widgets.
+- The orientation inside the box is set by the first argument to `gtk_new_box()`. Either `GTK_ORIENTATION_VERTICAL` or `GTK_ORIENTATION_HORIZONTAL`
+- to make the `box` `widget` a child of the `window` `widget`. You need to use the `gtk_window_set_child()` function.
 
 ## Source
 [gtk docs guid](https://docs.gtk.org/gtk4/getting_started.html#hello-world)
